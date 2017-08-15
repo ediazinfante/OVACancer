@@ -108,7 +108,7 @@ body.drawerr-no-scroll {
   flex-direction: column;
   -ms-flex-item-align: center;
   align-self: center;
-  width: 40px;
+  width: 30px;
   height: 20px;
   padding: 0;
   outline: none; }

@@ -92,7 +92,7 @@ var Drawerr = function () {
     this.toggleBtnActiveClass = 'drawerr-btn--active';
     this.slideFromClass = 'drawerr-slide-from-right';
     this.options = {
-      btnText: 'MENU',
+      btnText: '',
       drawerr: '#drawerr',
       navbar: 'header',
       toggleBtn: '.toggleDrawerr',
