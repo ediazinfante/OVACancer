@@ -6,25 +6,21 @@
     <meta name="description" content="Aplicación para el aprendizaje sobre cancer oral">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Desórdenes potencialmente malignos y cáncer oral</title>
-    <link rel="stylesheet" href="css/drawerr.css">
     <link rel="stylesheet" href="css/RobotoMono.css">
 	<link rel="stylesheet" href="css/odonto.css">
     <link rel="stylesheet" href="css/w3.css">
     <script src="js/w3.js"></script>
     <script src="js/jquery.min.js"></script>
+	<script src="js/sidebar.js"></script>
   </head>
   <body>
-    <header>
-      <ul>
-        <div class="toggleDrawerr"> <span></span> <span></span> <span></span>
-        </div>
-        <li>&nbsp;</li>
-        <li><a href="index.html" class="w3-button w3-small w3-color1">Inicio</a></li>
-        <li><a href="html/cuestionario.html" class="w3-button w3-color1 w3-small">Cuestionario</a></li>
-        <li><a href="acerca.html" class="w3-button w3-color1 w3-small">Acerca de...</a></li>
-      </ul>
-    </header>
-    <main>
+  <div class="w3-sidebar w3-bar-block w3-card-2 w3-animate-left" style="display:none" id="mySidebar">    </div>
+  <div class="w3-main" id="main">
+	   <div class="w3-teal">
+		  <div id="mbar" class="w3-container">
+		  </div>
+	   </div>
+<!------------------------------------------------------------------->
       <div class="w3-container">
 	    <h2 class="w3-center">Desórdenes potencialmente malignos y Cáncer Oral</h2>
         <p class="w3-opacity"> El cáncer es hoy en día un problema de grandes imensiones en cuanto a salud pública, , es una de las primeras causas de muerte a nivel mundial. La Organización Mundial de la Salud (OMS) presentó la discusión, clasificación y terminología que ha realizado sobre las lesiones de la mucosa bucal potencialmente malignas, considerando:</p>
@@ -33,16 +29,16 @@
 			<li><strong>Cáncer:</strong> es una proliferación persistente excesiva e incesante de células anormales y relativamente autónomas que obedecen a un defecto celular permanente y se transmite cuando estas se dividen. Esto es inducido por diferentes factores, llegando hasta la metastización.</li>
           </ul>
        <hr class="w3-teal">
-	   <p class="w3-center"><img class="w3-image" align="middle" style="width:100%;max-width:350px" alt="Cancer Oral" src="img/08.png"></p>
+	   <p class="w3-center w3-animate-zoom"><img class="w3-image" align="middle" style="width:100%;max-width:350px" alt="Cancer Oral" src="img/08.png"></p>
      </div>
-    </main>
-    <nav id="drawerr" class="drawerr--init"> </nav>
+
+<!------------------------------------------------------------------->
+  </div>
     <script>
         $(document).ready(function() {
-          $('#drawerr').load("html/nav.html");
+          $('#mySidebar').load("html/nav.html");
+		  $('#mbar').load("html/mbar.html");
         });
     </script>
-    <script src="js/drawerr.js"></script>
-    <script>new drawerr().init();</script>
   </body>
 </html>
