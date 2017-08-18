@@ -10,98 +10,93 @@
 	<link rel="stylesheet" href="css/odonto.css">
     <link rel="stylesheet" href="css/w3.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">	
-    <script src="js/w3.js"></script>
-    <script src="js/jquery.min.js"></script>
-	<script src="js/sidebar.js"></script>
-	<script src="js/backscroll.js"></script>
+    <script src="js/w3.js" type="text/javascript"></script>
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+	<script src="js/sidebar.js" type="text/javascript"></script>
+	<script src="js/backscroll.js" type="text/javascript"></script>
   </head>
   <body>
    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-chevron-up fa-2x" ></i></button> 
-  <div class="w3-sidebar w3-bar-block w3-card-2 w3-animate-left" style="display:none" id="mySidebar">    </div>
+  <div class="w3-sidebar w3-bar-block w3-card-2 w3-animate-left" style="display:none" id="mySidebar">  </div>
   <div class="w3-main" id="main">
 	   <div class="w3-teal">
 		  <div id="mbar" class="w3-container">
 		  </div>
 	   </div>
-<!------------------------------------------------------------------->
-		<div class="w3-row">
-			<div class="w3-half w3-container w3-margin-top">
-			 <div class="row">
-  <div class="column">
-    <img src="img/img_lights.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
-  </div>
-  <div class="column">
-    <img src="img/img_lights.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
-  </div>
-  <div class="column">
-    <img src="img/img_lights.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
-  </div>
-  <div class="column">
-    <img src="img/img_lights.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
-  </div>
-</div>
-
-<div id="myModal" class="modal">
-  <span class="close cursor" onclick="closeModal()">&times;</span>
-  <div class="modal-content">
-
-    <div class="mySlides">
-      <div class="numbertext">1 / 4</div>
-        <img src="img/img_lights_wide.jpg" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">2 / 4</div>
-        <img src="img/img_lights_wide.jpg" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">3 / 4</div>
-        <img src="img/img_lights_wide.jpg" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">4 / 4</div>
-        <img src="img/img_lights_wide.jpg" style="width:100%">
-    </div>
-
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-    <div class="caption-container">
-      <p id="caption"></p>
-    </div>
-
-    <div class="column">
-      <img class="demo" src="img/img1.jpg" onclick="currentSlide(1)" alt="Nature">
-    </div>
-
-    <div class="column">
-      <img class="demo" src="img/img2.jpg" onclick="currentSlide(2)" alt="Trolltunga">
-    </div>
-
-    <div class="column">
-      <img class="demo" src="img/img3.jpg" onclick="currentSlide(3)" alt="Mountains">
-    </div>
-
-    <div class="column">
-      <img class="demo" src="img/img4.jpg" onclick="currentSlide(4)" alt="Lights">
-    </div>
-  </div>
-</div> 
-<!--			 <p class="w3-center"><img class="w3-image" align="middle" style="width:100%;max-width:350px" alt="Cancer Oral" src="img/08.png"></p>  <br> -->
-			</div>
-				
-		 <div class="w3-half w3-container w3-margin-top">
-		 
+	   <div class="w3-container w3-margin-top">
+<!------------------------------------------------------------------->		  
 		  <div class="odo-card1">
-		     <header class="w3-container">
+		     <header class="w3-container w3-teal">
 				<h3>Fibrosis oral submucosa</h3>
 			 </header>
 			 <div class="odo-text">
 				<p>La fibrosis submucosa bucal (FSB) es una rara alteración de la mucosa de la boca que se halla caracterizada por una atrofia epitelial acompañada de una dureza o rigidez de la submucosa y de una decoloración peculiar.</p>
 			 </div>
-		  </div>		  
+<!--------------------------------------------->		 	<!------>	 
+			<div class="row w3-margin">
+			  <div class="column">
+				<img src="img/fibrosis1.png" onclick="openModal();currentSlide(1)" class="hover-shadow" style="width:100%">
+			  </div>
+			  <div class="column">
+				<img src="img/fibrosis2.png" onclick="openModal();currentSlide(2)" class="hover-shadow" style="width:100%">
+			  </div>
+			  <div class="column">
+				<img src="img/fibrosis1.png" onclick="openModal();currentSlide(3)" class="hover-shadow" style="width:100%">
+			  </div>
+			  <div class="column">
+				<img src="img/fibrosis2.png" onclick="openModal();currentSlide(4)" class="hover-shadow" style="width:100%">
+			  </div>
+			</div>		
+			<!------>	
+			<div id="myModal" class="modal">
+			  <span class="close cursor" onclick="closeModal()">&times;</span>
+			  <div class="modal-content">
+
+				<div class="mySlides">
+				  <div class="numbertext">1 / 4</div>
+					<img src="img/fibrosis1.png" style="width:100%">
+				</div>
+
+				<div class="mySlides">
+				  <div class="numbertext">2 / 4</div>
+					<img src="img/fibrosis2.png" style="width:75%">
+				</div>
+
+				<div class="mySlides">
+				  <div class="numbertext">3 / 4</div>
+					<img src="img/fibrosis1.png" style="width:75%">
+				</div>
+
+				<div class="mySlides">
+				  <div class="numbertext">4 / 4</div>
+					<img src="img/fibrosis2.png" style="width:75%">
+				</div>
+
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+				<div class="caption-container">
+				  <p id="caption"></p>
+				</div>
+
+				<div class="column">
+				  <img class="demo" src="img/fibrosis1.png" onclick="currentSlide(1)" style="width:100%" alt="Nature">
+				</div>
+
+				<div class="column">
+				  <img class="demo" src="img/fibrosis2" onclick="currentSlide(2)" style="width:100%" alt="Trolltunga">
+				</div>
+
+				<div class="column">
+				  <img class="demo" src="img/fibrosis1" onclick="currentSlide(3)" style="width:100%" alt="Mountains">
+				</div>
+
+				<div class="column">
+				  <img class="demo" src="img/fibrosis2" onclick="currentSlide(4)" style="width:100%" alt="Lights">
+				</div>
+			  </div>
+			</div> 			
+<!--------------------------------------------->		  </div>		  
 
 		  <div class="odo-card2">
 		     <header class="w3-container">
@@ -109,9 +104,9 @@
 			 </header>
 			 <div class="odo-text">
 				<p>La FSB es una enfermedad de comienzo insidioso y de evolución crónica, cuyo origen y desarrollo aún se mantienen oscuros; la mayor incidencia en las mujeres la relacionan con un trastorno endocrino; los hábitos alimentarios de la mayoría de los que la padecen sugieren una reacción ante tipos agresivos de alimentos. Algunos estudios la relacionan con procesos autoinmunes.</p>
-				
 			 </div>
 		  </div>
+		  
 		  <div class="odo-card2">
 		     <header class="w3-container">
 				<h5><strong>Características clínicas</strong></h5>
@@ -121,14 +116,13 @@
 			 </div>
 		  </div>
 
-		  <div class="w3-container w3-margin-bottom w3-yellow w3-center w3-round w3-border-left" style="margin:10%">
+		  <div class="odo-note">
 				<p class="w3-serif w3-center"><h5 class="w3-serif w3-center"><strong>Inmunofluorescencia</strong></h5></p>
 				<p class="w3-medium" style="font-family:serif; font-style:italic;">En el examen microscópico el rasgo principal es la atrofia del epitelio, con un grado variable de transformación displásica. Las porciones superficiales de la lámina propia muestran vascularizaciones escasas y hialinizacion. Hay poco fibroblasto y se detecta poco infiltrado inflamatorio crónico que varía de mínimo a moderado. Estudios de ultraestructura e inmunofluorescencia demuestran predominio de colágena tipo 1 en tanto que la de tipo 3 tiende a localizarse entre la interfaz de los tejidos epiteliales y conectivos, alrededor de vasos sanguíneos, glándulas salivales y músculos. Todas las formas de colágena, aunque en exceso son morfológicamente normales.</p>
 			 </div>
-		  </div>
-		</div>
-	  </div>
+		  
 <!------------------------------------------------------------------->
+		</div>
   </div>
     <script>
         $(document).ready(function() {
