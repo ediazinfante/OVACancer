@@ -42,11 +42,17 @@
 			color:#000!important;background-color:#f0e68c!important;
 			padding-bottom: 2px!important;
 		}			
+		.odo-text-main{ /*w3-container w3-white" style="max-height:350px;overflow:auto;"*/
+			padding:0.01em 16px;
+			color:#000!important;background-color:#fff!important;
+			/*max-height:350px;overflow:auto;*/
+		}
 		.odo-text{ /*w3-container w3-white" style="max-height:350px;overflow:auto;"*/
 			padding:0.01em 16px;
 			color:#000!important;background-color:#fff!important;
 			max-height:350px;overflow:auto;
 		}
+
 		.odo-note{ /*w3-container w3-margin-bottom w3-yellow  w3-round w3-border-left" style="margin:10%"*/
 			padding:0.01em 16px;
 			margin-bottom:16px!important;
@@ -54,8 +60,15 @@
 			border-radius:4px;
 			border-left:1px solid #ccc!important;
 			margin:16px 40px 16px 40px!important;
+			max-height:350px;overflow:auto;
 		}
-		
+
+.bottomleft {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 18px;
+}		
 /*----------- Back Scroll Button --------*/
 #myBtn {
     display: none; /* Hidden by default */
@@ -176,8 +189,14 @@
 
 .column {
   float: left;
+  width: 33%;
+}
+
+.column4 {
+  float: left;
   width: 25%;
 }
+
 
 /* The Modal (background) */
 .modal {
