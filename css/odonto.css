@@ -282,6 +282,14 @@
   top: 0;
 }
 
+.texttext {
+  color: #f2f2f2;
+  font-size: 20px;
+  padding: 20px 12px;
+  position: absolute;
+  top: 0;
+}
+
 .caption-container {
   text-align: center;
   background-color: black;

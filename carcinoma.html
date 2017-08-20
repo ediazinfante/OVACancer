@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es">
+
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="Aplicación para el aprendizaje sobre cancer oral">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Desórdenes potencialmente malignos y cáncer oral</title>
+    <link rel="stylesheet" href="css/RobotoMono.css">
+    <link rel="stylesheet" href="css/odonto.css">
+    <link rel="stylesheet" href="css/w3.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <script src="js/w3.js" type="text/javascript"></script>
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/sidebar.js" type="text/javascript"></script>
+    <script src="js/utilities.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Subir al inicio"><i class="fa fa-chevron-up fa-2x"></i></button>
+    <div class="w3-sidebar w3-bar-block w3-card-2 w3-animate-left" style="display:none" id="mySidebar"> </div>
+    <div class="w3-main" id="main">
+        <div class="w3-color1">
+            <div id="mbar" class="w3-container">
+            </div>
+        </div>
+        <div class="w3-container w3-margin-top">
+            <!------------------------------------------------------------------->
+            <div class="odo-card1">
+                <header class="w3-container w3-color1">
+                    <h3>Carcinoma Escamocelular</h3></header>
+                <div class="odo-text">
+                    <p>
+
+                        El carcinoma epidermoide o de células escamosas, es una neoplasia maligna que se origina de las células escamosas del epitelio que recubre la mucosa, es la más frecuente de la cavidad bucal. Se han mencionado diversos factores de riesgo asociados, como son: el tabaquismo, alcoholismo, sífilis, infecciones por virus del papiloma humano (VPH), liquen plano bucal, VIH, irritantes mecánicos, higiene bucal deficiente, factores hereditarios, entre otros.</p>
+                </div>
+                <!--------------------------------------------->
+                <div class="row w3-margin w3-center">
+                    <div class="column"><img src="img/carcinoma1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow" style="width:100%"></div>
+                    <div class="column"><img src="img/carcinoma2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow" style="width:100%"></div>
+                    <div class="column"><img src="img/carcinoma3.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow" style="width:100%"></div>
+                </div>
+                <div class="row w3-center">
+                    <audio controls autoplay>
+                        <source src="audios/carcinoma.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+                <div id="myModal" class="modal"><span class="close cursor" onclick="closeModal()">&times;</span>
+                    <div class="modal-content">
+                        <div class="mySlides">
+                            <div class="numbertext">1 / 3</div><img src="img/carcinoma1.jpg" style="width:100%"></div>
+                        <div class="mySlides">
+                            <div class="numbertext">2 / 3</div><img src="img/carcinoma2.jpg" style="width:100%"></div>
+                        <div class="mySlides">
+                            <div class="numbertext">3 / 3</div><img src="img/carcinoma3.jpg" style="width:100%"></div>
+						<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+						<a class="next" onclick="plusSlides(1)">&#10095;</a>
+                        <div class="caption-container">
+                            <p id="caption" style="font-style:italic"></p>
+                        </div>
+                        <div class="column w3-padding-small"><img class="demo" src="img/carcinoma1.jpg" onclick="currentSlide(1)" style="width:100%" alt="Cortesía de la Universidad de Buenos Aires por el Dr. Hector Lanfranchi"></div>
+                        <div class="column w3-padding-small"><img class="demo" src="img/carcinoma2.jpg" onclick="currentSlide(2)" style="width:100%" alt="Cortesía de la Universidad de Buenos Aires por el Dr. Hector Lanfranchi"></div>
+                        <div class="column w3-padding-small"><img class="demo" src="img/carcinoma3.jpg" onclick="currentSlide(3)" style="width:100%" alt="Cortesía de la Universidad de Buenos Aires por el Dr. Hector Lanfranchi"></div>
+                    </div>
+                </div>
+                <!-------------------------------->
+            </div>
+
+            <div class="odo-card2">
+                <header class="w3-container">
+                    <h5><strong>Características clínicas</strong></h5></header>
+                <div class="odo-text">
+                    <p>
+                        El carcinoma escamocelular tiene una serie de presentaciones clínicas diferentes. En el estadio temprano puede aparecer como una lesión eritematosa (eritroplásica) asintomática o una lesión blanca (leucoplásica), o ambas (eritroleucoplásica). Puede también aparecer como una erosión, una úlcera pequeña, una masa exofítica, o una lesión periodontal. En estadios avanzados puede presentarse como una masa exofítica grande con o sin ulceraciones, úlcera profunda con una superficie vegetante irregular, bordes elevados y un infiltrado duro de los tejidos bucales. Dentro de la cavidad bucal el carcinoma escamocelular se presenta en diversas localizaciones anatómicas: labio inferior (35 %), labio superior (poco frecuente), lengua oral (bordes laterales y ventral), (25 %), suelo de la boca (20 %), paladar blando (15 %), encías/cresta alveolar (4-6 %) y mucosa bucal (1 %).</p>
+                </div>
+            </div>
+            <div class="odo-card2">
+                <header class="w3-container">
+                    <h5><strong>Histología</strong></h5></header>
+                <div class="odo-text">
+                    <p>
+                        La apariencia histológica depende de su grado de diferenciación. Sin embargo en una misma lesión se pueden encontrar diferentes grados, lo que explica las distintas manifestaciones clínicas. Las lesiones mejor diferenciadas tratan de imitar la arquitectura y función de las células normales. En general, las células y sus núcleos son grandes. Las mitosis son relativamente frecuentes y la mayoría de ellas son atípicas. La queratinización se produce de manera individual y las masas celulares crecen hacia el tejido conectivo infiltrando el tejido normal.</p>
+                </div>
+            </div>
+
+            <!------------------------------------------------------------------->
+        </div>
+    </div>
+    <script>
+        $(document).ready(function() {
+            $('#mySidebar').load("html/nav.html");
+            $('#mbar').load("html/mbar.html");
+        });
+    </script>
+</body>
+
+</html>

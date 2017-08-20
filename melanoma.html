@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es">
+
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="Aplicación para el aprendizaje sobre cancer oral">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Desórdenes potencialmente malignos y cáncer oral</title>
+    <link rel="stylesheet" href="css/RobotoMono.css">
+    <link rel="stylesheet" href="css/odonto.css">
+    <link rel="stylesheet" href="css/w3.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <script src="js/w3.js" type="text/javascript"></script>
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/sidebar.js" type="text/javascript"></script>
+    <script src="js/utilities.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Subir al inicio"><i class="fa fa-chevron-up fa-2x"></i></button>
+    <div class="w3-sidebar w3-bar-block w3-card-2 w3-animate-left" style="display:none" id="mySidebar"> </div>
+    <div class="w3-main" id="main">
+        <div class="w3-color1">
+            <div id="mbar" class="w3-container">
+            </div>
+        </div>
+        <div class="w3-container w3-margin-top">
+            <!------------------------------------------------------------------->
+            <div class="odo-card1">
+                <header class="w3-container w3-color1">
+                    <h3>Melanoma</h3></header>
+                <div class="odo-text">
+                    <p>
+
+                        El melanoma es la transformación maligna del melanocito. Es un tumor con una gran capacidad de invasión y, con frecuencia, puede producir la muerte del paciente. Es responsable de 80% de las muertes por cáncer de la piel. En sus estadios tempranos es una enfermedad curable. Por esta razón, todos los médicos debemos aumentar nuestra sospecha de melanoma en su fase inicial.</p>
+                </div>
+                <!--------------------------------------------->
+                <div class="row w3-margin w3-center">
+                    <div class="column"><img src="img/melanoma1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow" style="width:100%"></div>
+                    <div class="column"><img src="img/melanoma2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow" style="width:100%"></div>
+                    <div class="column"></div>
+                </div>
+                <div class="row w3-center">
+                    <audio controls autoplay>
+                        <source src="audios/melanoma.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+                <div id="myModal" class="modal"><span class="close cursor" onclick="closeModal()">&times;</span>
+                    <div class="modal-content">
+                        <div class="mySlides">
+                            <div class="numbertext">1 / 2</div><img src="img/melanoma1.jpg" style="width:100%"></div>
+                        <div class="mySlides">
+                            <div class="numbertext">2 / 2</div><img src="img/melanoma2.jpg" style="width:100%"></div>
+						<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+						<a class="next" onclick="plusSlides(1)">&#10095;</a>
+                        <div class="caption-container">
+                            <p id="caption" style="font-style:italic"></p>
+                        </div>
+                        <div class="column w3-padding-small"><img class="demo" src="img/melanoma1.jpg" onclick="currentSlide(1)" style="width:100%" alt="Cortesía de la Universidad de Buenos Aires por el Dr. Hector Lanfranchi"></div>
+                        <div class="column w3-padding-small"><img class="demo" src="img/melanoma2.jpg" onclick="currentSlide(2)" style="width:100%" alt="Tomado de : SARDI, José, LOPEZ, Arnoldo. Melanoma maligno de la cavidad bucal. En: acta odontológica venezolana. 2003, vol.41, no.2."></div>
+                        <div class="column w3-padding-small"></div>
+                    </div>
+                </div>
+                <!-------------------------------->
+            </div>
+
+            <div class="odo-card2">
+                <header class="w3-container">
+                    <h5><strong>Características clínicas</strong></h5></header>
+                <div class="odo-text">
+                    <p>
+                        El paladar y la encía del maxilar superior son los sitios más comunes de ocurrencia en la boca, presentándose con menos frecuencia en los labios y la mucosa bucal. La lesión se puede desarrollar primero como una tumoración de crecimiento rápido, así como también de la expansión de una lesión pigmentada o mácula preexistente. Se han reportado casos donde la pigmentación ha estado presente por períodos que van de 6 meses a 20 años. La lesión avanzada aparece como un área fuertemente pigmentada, a veces ulcerada y hemorrágica, que tiende a aumentar progresivamente de tamaño. La neoplasia puede permanecer indolora por mucho tiempo, siendo el principal motivo de consulta la hemorragia o la presencia de una pápula pigmentada en la mucosa oral. La infiltración ganglionar es un suceso frecuente.</p>
+                </div>
+            </div>
+
+            <div class="odo-card2">
+                <header class="w3-container">
+                    <h5><strong>Histopatología</strong></h5></header>
+                <div class="odo-text">
+                    <p>
+                        El melanoma tiene un patrón de crecimiento bifásico consistente en una fase radial cuyo crecimiento tiene una diseminación "lateral y superficial" de grandes melanocitos epitelioides y células fusiformes, confinadas al epitelio y la fase vertical con crecimiento "infiltrativo" al tejido conectivo subyacente. Dichas células suelen ser muy anaplásicas. Es posible que se presente metástasis una vez que el melanoma maligno entra en su fase de crecimiento vertical. Una característica frecuente de encontrar es la presencia de melanina.</p>
+                </div>
+            </div>
+
+            <!------------------------------------------------------------------->
+        </div>
+    </div>
+    <script>
+        $(document).ready(function() {
+            $('#mySidebar').load("html/nav.html");
+            $('#mbar').load("html/mbar.html");
+        });
+    </script>
+</body>
+
+</html>

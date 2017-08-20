@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es">
+
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="Aplicación para el aprendizaje sobre cancer oral">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Desórdenes potencialmente malignos y cáncer oral</title>
+    <link rel="stylesheet" href="css/RobotoMono.css">
+    <link rel="stylesheet" href="css/odonto.css">
+    <link rel="stylesheet" href="css/w3.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <script src="js/w3.js" type="text/javascript"></script>
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/sidebar.js" type="text/javascript"></script>
+    <script src="js/utilities.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Subir al inicio"><i class="fa fa-chevron-up fa-2x"></i></button>
+    <div class="w3-sidebar w3-bar-block w3-card-2 w3-animate-left" style="display:none" id="mySidebar"> </div>
+    <div class="w3-main" id="main">
+        <div class="w3-color1">
+            <div id="mbar" class="w3-container">
+            </div>
+        </div>
+        <div class="w3-container w3-margin-top">
+            <!------------------------------------------------------------------->
+            <div class="odo-card1">
+                <header class="w3-container w3-color1">
+                    <h3>Leucoplasia</h3></header>
+                <div class="odo-text">
+                    <p>
+
+                        <h4>Etología y patogenia</h4> La definición propuesta por la OMS considera como leucoplasia a toda placa blanca situada sobre la mucosa bucal que no puede ser eliminada mediante el raspado o clasificada como ninguna otra enfermedad diagnosticable. Esta descripción hace referencia a un concepto clínico. </p>
+                    <p>
+                        Dentro de los factores locales que condicionan la aparición de una leucoplasia bucal podemos citar al tabaco, fumado o mascado, ejerce tres tipos de acciones: mecánica, física y química; esto es debido a la acción directa del cigarrillo sobre una misma área mucosa, por el calor y por sus componentes químicos. Las leucoplasias pueden remitir en un 60% en un año si el hábito de fumar cesa.</p>
+                </div>
+                <!--------------------------------------------->
+                <div class="row w3-margin w3-center">
+                    <div class="column4"><img src="img/leucoplasia1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow" style="width:100%"></div>
+                    <div class="column4"><img src="img/leucoplasia2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow" style="width:100%"></div>
+                    <div class="column4"><img src="img/leucoplasia3.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow" style="width:100%"></div>
+                    <div class="column4"><img src="img/leucoplasia4.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow" style="width:100%"></div>
+                </div>
+                <div class="row w3-center">
+                    <audio controls autoplay>
+                        <source src="audios/leucoplasia.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+                <div id="myModal" class="modal"><span class="close cursor" onclick="closeModal()">&times;</span>
+                    <div class="modal-content">
+                        <div class="mySlides">
+                            <div class="numbertext">1 / 4</div><img src="img/leucoplasia1.jpg" style="width:100%"></div>
+                        <div class="mySlides">
+                            <div class="numbertext">2 / 4</div><img src="img/leucoplasia2.jpg" style="width:100%"></div>
+                        <div class="mySlides">
+                            <div class="numbertext">3 / 4</div><img src="img/leucoplasia3.jpg" style="width:100%"></div>
+                        <div class="mySlides">
+                            <div class="numbertext">4 / 4</div><img src="img/leucoplasia4.jpg" style="width:100%"></div>
+							<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+							<a class="next" onclick="plusSlides(1)">&#10095;</a>
+                        <div class="caption-container">
+                            <p id="caption" style="font-style:italic"></p>
+                        </div>
+                        <div class="column4 w3-padding-small"><img class="demo" src="img/leucoplasia1.jpg" onclick="currentSlide(1)" style="width:100%" alt="Cortesía de la Universidad de Buenos Aires por el Dr. Hector Lanfranchi"></div>
+                        <div class="column4 w3-padding-small"><img class="demo" src="img/leucoplasia2.jpg" onclick="currentSlide(2)" style="width:100%" alt="Cortesía de la Universidad de Buenos Aires por el Dr. Hector Lanfranchi"></div>
+                        <div class="column4 w3-padding-small"><img class="demo" src="img/leucoplasia3.jpg" onclick="currentSlide(3)" style="width:100%" alt="Cortesía de la Universidad de Buenos Aires por el Dr. Hector Lanfranchi"></div>
+                        <div class="column4 w3-padding-small"><img class="demo" src="img/leucoplasia4.jpg" onclick="currentSlide(4)" style="width:100%" alt="Tomado de: MEDINA, Eduardo, CARMONA, Martha, Díaz, Antonio. Leucoplasia asociada al hábito de fumar invertido, presentación de un caso clínico. En: Av Odontoestomatología. 2015, Vol. 31 no.4"></div>
+                    </div>
+                </div>
+                <!-------------------------------->
+            </div>
+
+            <div class="odo-card2">
+                <header class="w3-container">
+                    <h5><strong>Características Clínicas</strong></h5></header>
+                <div class="odo-text">
+                    <p>
+                        Se presenta como una placa blanca afectando cualquier zona de la mucosa bucal, el tamaño es variable, desde 1 cm de diámetro hasta ocupar gran área de la mucosa, la superficie puede ser lisa o rugosa, el color no siempre es blanco, también se presenta gris, amarillo, o en varios colores en una sola lesión y generalmente, es asintomática. Se clasifican es homogéneas y no homogéneas. Las no homogéneas se clasifican en Eritoleucoplasia nodulares y exófiticas, las homogéneas son principalmente blancas, uniformes, delgadas, superficie lisa o rugosa, en algunos casos presentan surcos profundos. Las no homogéneas son lesiones predominantemente blancas que están acompañadas de zonas muy rojas y pueden presentar una superficie irregular, nodular y exofitica.</p>
+                </div>
+            </div>
+
+            <div class="odo-card2">
+                <header class="w3-container">
+                    <h5><strong>Características Histológicas</strong></h5></header>
+                <div class="odo-text">
+                    <p>
+                        La leucoplasia puede presentar un patrón histopatológico variable, desde una hiperqueratosis sin displasia epitelial, hasta una displasia severa con fenómenos de atrofia o hiperplasia epitelial. Atendiendo a la presencia de displasia como dato fundamental, clásicamente se han distinguido dos tipos de leucoplasia: las displásicas y las no displásicas. </p>
+                    <p>
+                        Los cambios displásicos se gradúan como displasia leve, moderada o severa. En la displasia leve los cambios displásicos son «mínimos» y están confinados al tercio inferior del epitelio. En la displasia moderada los cambios displásicos ocurren en los dos tercios inferiores del epitelio. En la displasia severa los cambios ocupan más de dos tercios, pero no todo el espesor epitelial.</p>
+<div class="w3-responsive w3-center">                  
+				  <table class="w3-table" border="0">
+                        <tbody>
+                            <tr align="center">
+                                <td colspan="3" rowspan="1" style="text-align: center;"><h4><strong>Clasificación LCP<strong></h4></td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: center;"><strong>L(tamaño)</strong></td>
+                                <td style="text-align: center;"><strong>C(Tipo Clínico)</strong></td>
+                                <td style="text-align: center;"><strong>P(Tipo Histológico)</strong></td>
+                            </tr>
+                            <tr>
+                                <td>L1: menor de 2cm
+                                    <br /> L2: de 3 a 4cm
+                                    <br /> L3: Mayor de 4cm</td>
+                                <td>C1: Leucoplasia homog&eacute;nea
+                                    <br /> C2: Leucoplasia CX: no especificado</td>
+                                <td>P1: sin displasia
+                                    <br /> P2: displasia leve
+                                    <br /> P3: displasia moderada
+                                    <br /> P4: displasia severa
+                                    <br /> P5: no especificada</td>
+                            </tr>
+                            <tr>
+                                <td colspan="3" rowspan="1"><strong>ESTADIO 1: Cualquier L, C1, P1, P2.</strong>
+                                    <br /><strong> ESTADIO 2: Cualquier L, C2, P1, P2.</strong>
+                                    <br /><strong> ESTADIO 3: Cualquier L, cualquier C, P3, P4.</strong></td>
+                            </tr>
+                        </tbody>
+                    </table>
+					</div>
+                    </p>
+                </div>
+            </div>
+
+            <!------------------------------------------------------------------->
+        </div>
+    </div>
+    <script>
+        $(document).ready(function() {
+            $('#mySidebar').load("html/nav.html");
+            $('#mbar').load("html/mbar.html");
+        });
+    </script>
+</body>
+
+</html>
