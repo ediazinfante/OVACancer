@@ -52,18 +52,18 @@
             $('#mySidebar').load("html/nav.html");
             $('#mbar').load("html/mbar.html");
             if (typeof(Storage) !== "undefined") {
-                alert('Supported' + sessionStorage.intro);
+                
                 if (sessionStorage.intro) {
-                    alert('second and more');
+                    
                     document.getElementById("introaudio").innerHTML = "<audio controls><source src='audios/intro.mp3' type='audio/mpeg'></audio>";
                 } else {
-                    alert('firstt time');
+                    
                     sessionStorage.intro = 1;
                     document.getElementById("introaudio").innerHTML = "<audio controls autoplay><source src='audios/intro.mp3' type='audio/mpeg'></audio>";
                 }
 
             } else {
-                alert('Not sopported');
+                
                 document.getElementById("introaudio").innerHTML = "<audio controls autoplay><source src='audios/intro.mp3' type='audio/mpeg'></audio>";
             }
         });
