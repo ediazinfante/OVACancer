@@ -1,0 +1,145 @@
+{"quizlist":[
+  
+	{
+	"question":"¿Con qué se relaciona la aparición de fibrosis oral submucosa?",
+	"option1":"Trastorno endocrino",
+	"option2":"Alcoholismo",
+	"option3":"Exposición solar",
+	"option4":"Tabaquismo"
+	},
+	{
+	"question":"¿Cuál es el rasgo histológico principal de la fibrosis oral submucosa?",
+	"option1":"Atrofia del epitelio",
+	"option2":"Células gigantes",
+	"option3":"Melanocitos",
+	"option4":"Hiperqueratosis"
+	},
+	{
+	"question":"¿Cómo se denominan a las lineas blanquecinas caracteristicas del liquen?",
+	"option1":"Estrías de Wickham",
+	"option2":"Estrías de Retzius",
+	"option3":"Estrías de Vogt",
+	"option4":"Línea de Ricketts"
+	},
+	{
+	"question":"¿Qué fármacos a menudo son señalados como factor desencadenante del liquen plano?",
+	"option1":"Bloqueadores beta",
+	"option2":"Bloqueadores alfa",
+	"option3":"Opiaceos",
+	"option4":"Anticonvulsivantes"
+	},
+	{
+	"question":"¿Cuál es la lesion elemental del lupus eritematoso discoide?",
+	"option1":"Placa",
+	"option2":"Elemento Papuloide",
+	"option3":"Pápula",
+	"option4":"Úlcera"
+	},
+	{
+	"question":"¿Qué tipo de sintomatología clínica se observa en episodios sistémicos agudos?",
+	"option1":"Eritemas, petequias y ulceraciones",
+	"option2":"Placas, petequias",
+	"option3":"Hemorragias gingivales",
+	"option4":"Placas, eritemas y petequias"
+	},
+	{
+	"question":"¿Cuál es el lugar mas frecuente de aparición de la queilitis actínica?",
+	"option1":"Labio inferior",
+	"option2":"Cara dorsal de la lengua",
+	"option3":"Mucosa yugal",
+	"option4":"Cara ventral de la lengua"
+	},
+	{
+	"question":"¿Cuál es la patologia en la que puede evolucionar la queilitis actínica?",
+	"option1":"Carcinoma epidermoide",
+	"option2":"Sarcoma",
+	"option3":"Melanoma",
+	"option4":"Linfoma"
+	},
+	{
+	"question":"¿Cuáles son las patologias más prevalentes en paladar de fumadores invertidos?",
+	"option1":"Candidiasis oral, Carcinoma de celulas escamosas, Lengua vellosa, Leucoplasia",
+	"option2":"Gingivitis, Caries, Flurososis, Melanoma",
+	"option3":"Periodontitis, Melanosis fisiologica, Caries, Candidiasis oral",
+	"option4":"Candidiasis oral, Hipoplasia del esmalte, Carcinoma de celulas escamosas"
+	},
+	{
+	"question":"¿Cuáles son los compuestos carcinógenos contenidos en el humo del cigarrillo que pueden generar lesiones en el paladar?",
+	"option1":"Policíclicos, hidrocarburos aromáticos, aldehidos arsénicos, niquel y cadmio",
+	"option2":"Cadmio, Amoniaco, Sulfato ferroso",
+	"option3":"Aldehidos arsénicos, Niquel, Cromo, Policíclicos",
+	"option4":"Policíclicos, hidrocarburos aromáticos, aldehidos arsénicos, niquel,  cadmio, Hidrógeno"
+	},
+	{
+	"question":"¿Cómo se clasifican las lesiones no homogéneas de la Leucoplasia?",
+	"option1":"Eritoleucoplasia nodulares y exofíticas",
+	"option2":"Irregulares y nodulares",
+	"option3":"Nodulares y uniformes",
+	"option4":"Exofíticas"
+	},
+	{
+	"question":"¿Qué es característico de la Leucoplasia?",
+	"option1":"Placa blanca, gris o amarilla que no desprende al raspado",
+	"option2":"Una placa café que desprende al raspado",
+	"option3":"Placa blanca que no desprende al raspado",
+	"option4":"Placa blanca que desprende al raspado"
+	},
+	{
+	"question":"¿Cuál es la patología que posee un alto riesgo de transformación maligna?",
+	"option1":"Eritroplasia",
+	"option2":"Leucoplasia",
+	"option3":"Liquen plano reticular",
+	"option4":"Lupus eritematoso discoide"
+	},
+	{
+	"question":"¿Cuáles son los sitios más frecuentes de aparición de la Eritroplasia?",
+	"option1":"Piso de boca, bordes y cara ventral lingual y mucosa yugal",
+	"option2":"Cara dorsal de lengua, frenillos, paladar",
+	"option3":"Cara ventral de lengua, labio superior, mucosa yugal",
+	"option4":"Labio inferior, Piso de Boca, cara lateral de la lengua"
+	},
+	{
+	"question":"Según porcentaje de aparición ¿cuál sería el lugar más frecuente de aparición del carcinoma escamocelular",
+	"option1":"Labio inferior",
+	"option2":"Labio superior",
+	"option3":"Paladar duro",
+	"option4":"Encía"
+	},
+	{
+	"question":"Nombre de la lesión que se presenta en el estadío temprano del carcinoma escamocelular",
+	"option1":"Lesión eritroplásica, leucoplásica o eritoleucoplásica",
+	"option2":"Masa exofítica con ulceración",
+	"option3":"Masa exofítica sin ulceración",
+	"option4":"Lesión eritoleucoplásica"
+	},
+	{
+	"question":"¿Cuáles son las células que encontramos en un corte histológico de un Adenocarcinoma?",
+	"option1":"Células mucosecretoras, epidermoides e intermedias",
+	"option2":"Células de Langerhans e intermedias",
+	"option3":"Células secretoras y epidermoides",
+	"option4":"Células endocervicales, mucosecretoras, epidermides e intermedias"
+	},
+	{
+	"question":"¿Qué patología también es conocida como Carcinoma Mucoepidermoide?",
+	"option1":"Adenocarcinoma",
+	"option2":"Carcinoma Escamocelular",
+	"option3":"Osteosarcoma",
+	"option4":"Rabdomioma"
+	},
+	{
+	"question":"¿La presencia de qué componente es caracteristico de un Melanoma?",
+	"option1":"Melanina",
+	"option2":"Calcitonina",
+	"option3":"Melatonina",
+	"option4":"Enamelina"
+	},
+	{
+	"question":"Según la OMS, ¿Cómo se clasifican los desórdenes potencialmente malignos?",
+	"option1":"Lesión precancerosa y Condición precancerosa",
+	"option2":"Lesiones premalignas y potencialmente malignas",
+	"option3":"Condición precancerosa y lesión premaligna",
+	"option4":"Lesión precancerosa y cáncer"
+	}
+
+]
+}
