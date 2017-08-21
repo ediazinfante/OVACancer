@@ -40,10 +40,7 @@
                 </li>
             </ul>
             <hr class="w3-color1">
-            <div class="row w3-center">
-                <audio controls autoplay>
-                    <source src="audios/intro.mp3" type="audio/mpeg">
-                </audio>
+            <div id="introaudio" class="row w3-center">
             </div>
             <p class="w3-center w3-animate-zoom"><img class="w3-image" align="middle" style="width:100%;max-width:350px" alt="Cancer Oral" src="img/08.png"></p>
 
@@ -54,7 +51,24 @@
         $(document).ready(function() {
             $('#mySidebar').load("html/nav.html");
             $('#mbar').load("html/mbar.html");
+            if (typeof(Storage) !== "undefined") {
+                alert('Supported' + sessionStorage.intro);
+                if (sessionStorage.intro) {
+                    alert('second and more');
+                    document.getElementById("introaudio").innerHTML = "<audio controls><source src='audios/intro.mp3' type='audio/mpeg'></audio>";
+                } else {
+                    alert('firstt time');
+                    sessionStorage.intro = 1;
+                    document.getElementById("introaudio").innerHTML = "<audio controls autoplay><source src='audios/intro.mp3' type='audio/mpeg'></audio>";
+                }
+
+            } else {
+                alert('Not sopported');
+                document.getElementById("introaudio").innerHTML = "<audio controls autoplay><source src='audios/intro.mp3' type='audio/mpeg'></audio>";
+            }
         });
+    </script>
+    <script>
     </script>
 </body>
 
