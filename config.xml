@@ -7,7 +7,7 @@
 
 <!-- versionCode is optional and Android only -->
   <preference name="phonegap-version" value="cli-6.5.0" />
-  <name>Desórdenes potencialmente malignos y cáncer oral</name>
+  <name>Cáncer Oral y Desórdenes potencialmente malignos</name>
 
   <description>
       Aplicación para el aprendizaje sobre cancer oral
