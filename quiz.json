@@ -1,56 +1,56 @@
 {"quizlist":[
   
 	{
-	"question":"¿Con qué se relaciona la aparición de fibrosis oral submucosa?",
+	"question":"¿Con qué se relaciona la aparición de Fibrosis Oral Submucosa?",
 	"option1":"Trastorno endocrino",
 	"option2":"Alcoholismo",
 	"option3":"Exposición solar",
 	"option4":"Tabaquismo"
 	},
 	{
-	"question":"¿Cuál es el rasgo histológico principal de la fibrosis oral submucosa?",
+	"question":"¿Cuál es el rasgo histológico principal de la Fibrosis Oral Submucosa?",
 	"option1":"Atrofia del epitelio",
 	"option2":"Células gigantes",
 	"option3":"Melanocitos",
 	"option4":"Hiperqueratosis"
 	},
 	{
-	"question":"¿Cómo se denominan a las lineas blanquecinas caracteristicas del liquen?",
+	"question":"¿Cómo se denominan a las lineas blanquecinas caracteristicas del Liquen?",
 	"option1":"Estrías de Wickham",
 	"option2":"Estrías de Retzius",
 	"option3":"Estrías de Vogt",
 	"option4":"Línea de Ricketts"
 	},
 	{
-	"question":"¿Qué fármacos a menudo son señalados como factor desencadenante del liquen plano?",
-	"option1":"Bloqueadores beta",
-	"option2":"Bloqueadores alfa",
-	"option3":"Opiaceos",
-	"option4":"Anticonvulsivantes"
+	"question":"Según sus formas de presentación, ¿Cómo se clasifica el liquen?",
+	"option1":"Formas típicas y atípicas",
+	"option2":"Formas típicas y nodulares",
+	"option3":"Irregulares y exofíticas",
+	"option4":"Formas atípicas y elementos papuloides"
 	},
 	{
-	"question":"¿Cuál es la lesion elemental del lupus eritematoso discoide?",
+	"question":"¿Cuál es la lesion elemental del Lupus Eritematoso Discoide?",
 	"option1":"Placa",
 	"option2":"Elemento Papuloide",
 	"option3":"Pápula",
 	"option4":"Úlcera"
 	},
 	{
-	"question":"¿Qué tipo de sintomatología clínica se observa en episodios sistémicos agudos?",
+	"question":"¿Qué tipo de sintomatología clínica se observa en episodios sistémicos agudos del Lupus Eritomatoso Discoide?",
 	"option1":"Eritemas, petequias y ulceraciones",
 	"option2":"Placas, petequias",
 	"option3":"Hemorragias gingivales",
 	"option4":"Placas, eritemas y petequias"
 	},
 	{
-	"question":"¿Cuál es el lugar mas frecuente de aparición de la queilitis actínica?",
+	"question":"¿Cuál es el lugar mas frecuente de aparición de la Queilitis Actínica?",
 	"option1":"Labio inferior",
 	"option2":"Cara dorsal de la lengua",
 	"option3":"Mucosa yugal",
 	"option4":"Cara ventral de la lengua"
 	},
 	{
-	"question":"¿Cuál es la patologia en la que puede evolucionar la queilitis actínica?",
+	"question":"¿Cuál es la patología en la que puede evolucionar la Queilitis Actínica?",
 	"option1":"Carcinoma epidermoide",
 	"option2":"Sarcoma",
 	"option3":"Melanoma",
@@ -65,7 +65,7 @@
 	},
 	{
 	"question":"¿Cuáles son los compuestos carcinógenos contenidos en el humo del cigarrillo que pueden generar lesiones en el paladar?",
-	"option1":"Policíclicos, hidrocarburos aromáticos, aldehidos arsénicos, niquel y cadmio",
+	"option1":"Policíclicos, hidrocarburos aromáticos, aldehidos arsénicos arsénicos, niquel y cadmio",
 	"option2":"Cadmio, Amoniaco, Sulfato ferroso",
 	"option3":"Aldehidos arsénicos, Niquel, Cromo, Policíclicos",
 	"option4":"Policíclicos, hidrocarburos aromáticos, aldehidos arsénicos, niquel,  cadmio, Hidrógeno"
@@ -82,7 +82,7 @@
 	"option1":"Placa blanca, gris o amarilla que no desprende al raspado",
 	"option2":"Una placa café que desprende al raspado",
 	"option3":"Placa blanca que no desprende al raspado",
-	"option4":"Placa blanca que desprende al raspado"
+	"option4":"Placa azul que desprende al raspado"
 	},
 	{
 	"question":"¿Cuál es la patología que posee un alto riesgo de transformación maligna?",
@@ -99,42 +99,42 @@
 	"option4":"Labio inferior, Piso de Boca, cara lateral de la lengua"
 	},
 	{
-	"question":"Según porcentaje de aparición ¿cuál sería el lugar más frecuente de aparición del carcinoma escamocelular",
+	"question":"Según porcentaje de aparición ¿cuál sería el lugar más frecuente de aparición del Carcinoma Escamocelular",
 	"option1":"Labio inferior",
 	"option2":"Labio superior",
 	"option3":"Paladar duro",
 	"option4":"Encía"
 	},
 	{
-	"question":"Nombre de la lesión que se presenta en el estadío temprano del carcinoma escamocelular",
+	"question":"Nombre de la lesión que se presenta en el estadío temprano del Carcinoma Escamocelular",
 	"option1":"Lesión eritroplásica, leucoplásica o eritoleucoplásica",
 	"option2":"Masa exofítica con ulceración",
 	"option3":"Masa exofítica sin ulceración",
 	"option4":"Lesión eritoleucoplásica"
 	},
 	{
-	"question":"¿Cuáles son las células que encontramos en un corte histológico de un Adenocarcinoma?",
-	"option1":"Células mucosecretoras, epidermoides e intermedias",
-	"option2":"Células de Langerhans e intermedias",
-	"option3":"Células secretoras y epidermoides",
-	"option4":"Células endocervicales, mucosecretoras, epidermides e intermedias"
+	"question":"¿Cuál otro nombre recibe el carcinoma de células escamosas?",
+	"option1":"Carcinoma Epidermoide",
+	"option2":"Adenocarcinoma",
+	"option3":"Sarcoma",
+	"option4":"fibrosarcoma"
 	},
 	{
-	"question":"¿Qué patología también es conocida como Carcinoma Mucoepidermoide?",
-	"option1":"Adenocarcinoma",
-	"option2":"Carcinoma Escamocelular",
-	"option3":"Osteosarcoma",
-	"option4":"Rabdomioma"
-	},
-	{
-	"question":"¿La presencia de qué componente es caracteristico de un Melanoma?",
+	"question":"¿La presencia de qué componente es característico de un Melanoma?",
 	"option1":"Melanina",
 	"option2":"Calcitonina",
 	"option3":"Melatonina",
 	"option4":"Enamelina"
 	},
 	{
-	"question":"Según la OMS, ¿Cómo se clasifican los desórdenes potencialmente malignos?",
+	"question":"¿Cuáles  son los  sitios  de aparición más frecuente del Melanoma?",
+	"option1":"Paladar y encía del maxilar superior",
+	"option2":"Piso de boca y paladar",
+	"option3":"Encía del maxilar superior y carrillos",
+	"option4":"Lengua y labios"
+	},
+	{
+	"question":"Según la OMS, ¿Qué se considera como un desórden potencialmente maligno?",
 	"option1":"Lesión precancerosa y Condición precancerosa",
 	"option2":"Lesiones premalignas y potencialmente malignas",
 	"option3":"Condición precancerosa y lesión premaligna",

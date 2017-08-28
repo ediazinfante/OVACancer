@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html class="no-js" lang="es">
-
 <head>
     <meta content="text/html; charset=UTF-8" http-equiv="content-type">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -16,7 +15,6 @@
     <script src="js/sidebar.js" type="text/javascript"></script>
     <script src="js/utilities.js" type="text/javascript"></script>
 </head>
-
 <body>
     <button onclick="topFunction()" id="myBtn" title="Subir al inicio"><i class="fa fa-chevron-up fa-2x"></i></button>
     <div class="w3-sidebar w3-bar-block w3-card-2 w3-animate-left" style="display:none" id="mySidebar"> </div>
@@ -25,50 +23,25 @@
             <div id="mbar" class="w3-container">
             </div>
         </div>
-        <div class="w3-container w3-margin-top w3-animate-zoom">
+        <div class="w3-container w3-margin-top">
             <!------------------------------------------------------------------->
-            <h2 class="w3-center">Desórdenes potencialmente malignos y Cáncer Oral</h2>
-            <p class="w3-opacity"> El cáncer es hoy en día un problema de grandes imensiones en cuanto a salud pública, , es una de las primeras causas de muerte a nivel mundial. La Organización Mundial de la Salud (OMS) presentó la discusión, clasificación y terminología que ha realizado sobre las lesiones de la mucosa bucal potencialmente malignas, considerando:</p>
-            <ul class="w3-opacity">
-                <li><strong>Desórdenes potencialmente malignos:</strong> Leucoplasia, Eritroplasia, Paladar en fumadores invertidos, Liquen en cavidad oral, Queilitis actínica, Lupus Eritematoso Discoide, Fibrosis Oral submucosa.</li>
-                <li><strong>Cáncer:</strong> es una proliferación persistente excesiva e incesante de células anormales y relativamente autónomas que obedecen a un defecto celular permanente y se transmite cuando estas se dividen. Este defecto es inducido por uno o más factores que se combinan; que una vez instalados, suelen tomarse independientes. Las propiedades características de las células cancerígenas son:
-                    <ol type="a">
-                        <li>dividirse sin el control normal,</li>
-                        <li>infiltrar los tejidos adyacentes,</li>
-                        <li>metastizar a distancia.</li>
-                    </ol>
-                </li>
-            </ul>
-            <hr class="w3-color1">
-            <div id="introaudio" class="row w3-center">
-            </div>
-            <p class="w3-center w3-animate-zoom"><img class="w3-image" align="middle" style="width:100%;max-width:350px" alt="Cancer Oral" src="img/08.png"></p>
-
-            <!------------------------------------------------------------------->
+ <div class="w3-row">
+  <div class="w3-half w3-container">
+    <img src="img/acerca1.png" style="width:100%" alt="Universidad de Cartagena">
+  </div>
+  <div class="w3-half w3-container">
+    <img src="img/acerca2.png" style="width:100%" alt="Autores">
+  </div>
+</div> 
+			
+			<!------------------------------------------------------------------->
         </div>
     </div>
     <script>
         $(document).ready(function() {
             $('#mySidebar').load("html/nav.html");
             $('#mbar').load("html/mbar.html");
-/*            if (typeof(Storage) !== "undefined") {
-                
-                if (sessionStorage.intro) {
-                    
-                    document.getElementById("introaudio").innerHTML = "<audio controls><source src='audios/intro.mp3' type='audio/mpeg'></audio>";
-                } else {
-                    
-                    sessionStorage.intro = 1;
-                    document.getElementById("introaudio").innerHTML = "<audio controls autoplay><source src='audios/intro.mp3' type='audio/mpeg'></audio>";
-                }
-
-            } else {
-                
-                document.getElementById("introaudio").innerHTML = "<audio controls autoplay><source src='audios/intro.mp3' type='audio/mpeg'></audio>";
-            }*/
         });
-    </script>
-    <script>
     </script>
 </body>
 
