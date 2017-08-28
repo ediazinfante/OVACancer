@@ -29,9 +29,13 @@
             <!------------------------------------------------------------------->
             <h2 class="w3-center">Desórdenes potencialmente malignos y Cáncer Oral</h2>
             <p class="w3-opacity"> El cáncer es hoy en día un problema de grandes imensiones en cuanto a salud pública, , es una de las primeras causas de muerte a nivel mundial. La Organización Mundial de la Salud (OMS) presentó la discusión, clasificación y terminología que ha realizado sobre las lesiones de la mucosa bucal potencialmente malignas, considerando:</p>
-            <ul class="w3-opacity">
-                <li><strong>Desórdenes potencialmente malignos:</strong> Leucoplasia, Eritroplasia, Paladar en fumadores invertidos, Liquen en cavidad oral, Queilitis actínica, Lupus Eritematoso Discoide, Fibrosis Oral submucosa.</li>
-                <li><strong>Cáncer:</strong> es una proliferación persistente excesiva e incesante de células anormales y relativamente autónomas que obedecen a un defecto celular permanente y se transmite cuando estas se dividen. Este defecto es inducido por uno o más factores que se combinan; que una vez instalados, suelen tomarse independientes. Las propiedades características de las células cancerígenas son:
+            <ul>
+                <li class="w3-opacity"><strong>Desórdenes potencialmente malignos:</strong> Leucoplasia, Eritroplasia, Paladar en fumadores invertidos, Liquen en cavidad oral, Queilitis actínica, Lupus Eritematoso Discoide, Fibrosis Oral submucosa.</li>
+				<p class="w3-opacity">Situaciones clínicas que conllevan un riesgo incrementado de convertirse en cáncer</p>
+				<p class="w3-center">			
+				<img src="img/tabla1.png" style="width:100%;" alt="Blanco Carrión A. Desórdenes orales potencialmente malignos. Manifestaciones clínicas RCOE 2013;18(2):101-110 / Van Der Wall I. Potentially malignant disorders of the oral and oropharingeal mucosa; terminology, classification and present concepts of management. Oral oncol 2009; 45 (4-5): 317-323" class="hover-shadow myImg" onclick="document.getElementById('myModal').style.display ='block';document.getElementById('imgModal').src = this.src;document.getElementById('caption').innerHTML = this.alt;">
+				<div class="w3-tiny" w3-opacity><p class="caption">Blanco Carrión A. Desórdenes orales potencialmente malignos. Manifestaciones clínicas RCOE 2013;18(2):101-110<br>Van Der Wall I. Potentially malignant disorders of the oral and oropharingeal mucosa; terminology, classification and present concepts of management. Oral oncol 2009; 45 (4-5): 317-323</p></div></p><br>
+                <li class="w3-opacity"><strong>Cáncer:</strong> es una proliferación persistente excesiva e incesante de células anormales y relativamente autónomas que obedecen a un defecto celular permanente y se transmite cuando estas se dividen. Este defecto es inducido por uno o más factores que se combinan; que una vez instalados, suelen tomarse independientes. Las propiedades características de las células cancerígenas son:
                     <ol type="a">
                         <li>dividirse sin el control normal,</li>
                         <li>infiltrar los tejidos adyacentes,</li>
@@ -47,6 +51,15 @@
             <!------------------------------------------------------------------->
         </div>
     </div>
+	
+	<!-- Modal image window ---->
+	<div id="myModal" class="w3-modal w3-animate-zoom" onclick="this.style.display='none'">
+		<span class="close w3-hover-color4" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+		<img id="imgModal" class="modal-content" style="width:80%">
+		<div id="caption" class="w3-text-white w3-small"></div>
+	</div>
+	<script>		
+	
     <script>
         $(document).ready(function() {
             $('#mySidebar').load("html/nav.html");
