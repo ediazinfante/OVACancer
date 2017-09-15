@@ -33,13 +33,20 @@
                 <div class="odo-text">
                     <p>
                         Es una enfermedad crónica de etiología desconocida y que presenta una evolución clínica en brotes. La frecuencia varía entre el 0,2 y el 0,4% de la población, según las series, y presenta una predilección por el sexo femenino entre la tercera y sexta décadas de la vida.</p>
+					<p><b>Liquen Reticular</b></p>
                 </div>
                 <!--------------------------------------------->
+				
                 <div class="row w3-margin w3-center">
-                    <div class="column4"><img src="img/liquena1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow" style="width:100%"></div>
-                    <div class="column4"><img src="img/liquena2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow" style="width:100%"></div>
-                    <div class="column4"><img src="img/liquenr1.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow" style="width:100%"></div>
-                    <div class="column4"><img src="img/liquenr2.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow" style="width:100%"></div>
+                    <div class="column2"><img src="img/liquenr1.jpg" onclick="openModal('myModal');currentSlide(1)" class="hover-shadow" style="width:100%"></div>
+                    <div class="column2"><img src="img/liquenr2.png" onclick="openModal('myModal');currentSlide(2)" class="hover-shadow" style="width:100%"></div>
+                </div>
+				<div class="odo-text">
+					<p><b>Liquen Ampollar / Ulcerativo</b></p>
+				</div>
+				<div class="row w3-margin w3-center">
+                    <div class="column2"><img src="img/liquena1.jpg" onclick="openModal('myModal');currentSlide(3)" class="hover-shadow" style="width:100%"></div>
+                    <div class="column2"><img src="img/liquena2.jpg" onclick="openModal('myModal');currentSlide(4)" class="hover-shadow" style="width:100%"></div>
                 </div>
                 <div class="row w3-center">
                     <audio controls autoplay>
@@ -49,31 +56,31 @@
                 <div id="myModal" class="modal"><span class="close cursor" onclick="closeModal()">&times;</span>
                     <div class="modal-content">
                         <div class="mySlides">
-                            <div class="numbertext">1 / 4</div><img src="img/liquena1.jpg" style="width:100%">
+                            <div class="numbertext">1 / 4</div><img src="img/liquenr1.jpg" style="width:100%">
 							<div class="texttext">Liquen Reticular</div>
 						</div>
                         <div class="mySlides">
                             <div class="numbertext">2 / 4</div>
-                            <img src="img/liquena2.jpg" style="width:100%">
+                            <img src="img/liquenr2.png" style="width:100%">
 							<div class="texttext">Liquen Reticular</div>
                         </div>
                         <div class="mySlides">
-                            <div class="numbertext">3 / 4</div><img src="img/liquenr1.jpg" style="width:100%">
+                            <div class="numbertext">3 / 4</div><img src="img/liquena1.jpg" style="width:100%">
 							<div class="texttext">Liquen Ampollar / Ulcerativo</div>
 						</div>
-                    <div class="mySlides">
-                        <div class="numbertext">4 / 4</div><img src="img/liquenr2.jpg" style="width:100%">
-						<div class="texttext">Liquen Ampollar / Ulcerativo</div>
-					</div>
-						<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-						<a class="next" onclick="plusSlides(1)">&#10095;</a>
-                    <div class="caption-container">
-                        <p id="caption" style="font-style:italic"></p>
-                    </div>
-                    <div class="column4 w3-padding-small"><img class="demo" src="img/liquena1.jpg" onclick="currentSlide(1)" style="width:100%" alt="Cortesia de la Universidad de Buenos Aires por el Dr. Hector Lanfranchi"></div>
-                    <div class="column4 w3-padding-small"><img class="demo" src="img/liquena2.jpg" onclick="currentSlide(2)" style="width:100%" alt="Cortesia de la Universidad de Buenos Aires por el Dr. Hector Lanfranchi"></div>
-                    <div class="column4 w3-padding-small"><img class="demo" src="img/liquenr1.jpg" onclick="currentSlide(3)" style="width:100%" alt="Cortesia de la Universidad de Buenos Aires por el Dr. Hector Lanfranchi"></div>
-                    <div class="column4 w3-padding-small"><img class="demo" src="img/liquenr2.jpg" onclick="currentSlide(4)" style="width:100%" alt="Cortesia de la Universidad de Buenos Aires por el Dr. Hector Lanfranchi"></div>
+						<div class="mySlides">
+							<div class="numbertext">4 / 4</div><img src="img/liquena2.jpg" style="width:100%">
+							<div class="texttext">Liquen Ampollar / Ulcerativo</div>
+						</div>
+							<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+							<a class="next" onclick="plusSlides(1)">&#10095;</a>
+						<div class="caption-container">
+							<p id="caption" style="font-style:italic"></p>
+						</div>
+						<div class="column4 w3-padding-small"><img class="demo" src="img/liquenr1.jpg" onclick="currentSlide(1)" style="width:100%" alt="Manchas blanquecinas lineales en forma de estrias o red extendidas  en mucosa yugal derecha. (Cortesia del Dr. Hector Lanfranchi, docente  de la Universidad de Buenos Aires)"></div>
+						<div class="column4 w3-padding-small"><img class="demo" src="img/liquenr2.png" onclick="currentSlide(2)" style="width:100%" alt="Degeneración hidrópica de la capa basal en un liquen reticular, nótese el abundante infiltrado linfocitario subyacente. (Cortesia del Dr. Hector Lanfranchi, docente  de la Universidad de Buenos Aires)"></div>
+						<div class="column4 w3-padding-small"><img class="demo" src="img/liquena1.jpg" onclick="currentSlide(3)" style="width:100%" alt="Ampolla vacía en mucosa yugal izquierda de paciente con liquen ampollar. (Cortesia de la Universidad de Buenos Aires por el Dr. Hector Lanfranchi)"></div>
+						<div class="column4 w3-padding-small"><img class="demo" src="img/liquena2.jpg" onclick="currentSlide(4)" style="width:100%" alt="Histología de ampolla suprabasal en liquen ampollar, nótese el infiltrado linfocitario. (Cortesia del Dr. Hector Lanfranchi, docente  de la Universidad de Buenos Aires)"></div>
 					</div>
                 </div>
             </div>
