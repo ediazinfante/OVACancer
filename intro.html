@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es">
+
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="Aplicación para el aprendizaje sobre cancer oral">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Desórdenes potencialmente malignos y cáncer oral</title>
+    <link rel="stylesheet" href="css/RobotoMono.css">
+    <link rel="stylesheet" href="css/odonto.css">
+    <link rel="stylesheet" href="css/w3.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <script src="js/w3.js" type="text/javascript"></script>
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/sidebar.js" type="text/javascript"></script>
+    <script src="js/utilities.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Subir al inicio"><i class="fa fa-chevron-up fa-2x"></i></button>
+    <div class="w3-sidebar w3-bar-block w3-card-2 w3-animate-left" style="display:none" id="mySidebar"> </div>
+    <div class="w3-main" id="main">
+        <div class="w3-color1">
+            <div id="mbar" class="w3-container">
+            </div>
+        </div>
+        <div class="w3-container w3-margin-top w3-animate-zoom">
+            <!-- -->
+            <h2 class="w3-center">Desórdenes potencialmente malignos y Cáncer Oral</h2>
+            <p class="w3-opacity"> El cáncer es hoy en día un problema de grandes dimensiones en cuanto a salud pública, , es una de las primeras causas de muerte a nivel mundial. La Organización Mundial de la Salud (OMS) presentó la discusión, clasificación y terminología que ha realizado sobre las lesiones de la mucosa bucal potencialmente malignas, considerando:</p>
+            <ul>
+                <li class="w3-opacity"><strong>Desórdenes potencialmente malignos:</strong> Leucoplasia, Eritroplasia, Paladar en fumadores invertidos, Liquen en cavidad oral, Queilitis actínica, Lupus Eritematoso Discoide, Fibrosis Oral submucosa.</li>
+			</ul>
+				<p class="w3-opacity">Situaciones clínicas que conllevan un riesgo incrementado de convertirse en cáncer</p>
+				<p class="w3-center">			
+				<img src="img/tabla1.png" style="width:100%;" alt="Blanco Carrión A. Desórdenes orales potencialmente malignos. Manifestaciones clínicas RCOE 2013;18(2):101-110 / Van Der Wall I. Potentially malignant disorders of the oral and oropharingeal mucosa; terminology, classification and present concepts of management. Oral oncol 2009; 45 (4-5): 317-323" class="hover-shadow myImg" onclick="document.getElementById('myModal').style.display ='block';document.getElementById('imgModal').src = this.src;document.getElementById('caption').innerHTML = this.alt;">
+				<div class="w3-tiny w3-opacity"><p class="caption">Blanco Carrión A. Desórdenes orales potencialmente malignos. Manifestaciones clínicas RCOE 2013;18(2):101-110<br>Van Der Wall I. Potentially malignant disorders of the oral and oropharingeal mucosa; terminology, classification and present concepts of management. Oral oncol 2009; 45 (4-5): 317-323</p></div>
+			<ul>
+                <li class="w3-opacity"><strong>Cáncer:</strong> es una proliferación persistente excesiva e incesante de células anormales y relativamente autónomas que obedecen a un defecto celular permanente y se transmite cuando estas se dividen. Este defecto es inducido por uno o más factores que se combinan; que una vez instalados, suelen tomarse independientes. Las propiedades características de las células cancerígenas son:
+                    <ol type="a">
+                        <li>dividirse sin el control normal,</li>
+                        <li>infiltrar los tejidos adyacentes,</li>
+                        <li>metastizar a distancia.</li>
+                    </ol>
+                </li>
+            </ul>
+            <hr class="w3-color1">
+            <div id="introaudio" class="row w3-center">
+            </div>
+            <p class="w3-center w3-animate-zoom"><img class="w3-image" style="width:100%;max-width:350px" alt="Cancer Oral" src="img/08.png"></p>
+
+            <!--                   -->
+        </div>
+    </div>
+	
+	<!-- Modal image window -->
+	<div id="myModal" class="w3-modal w3-animate-zoom" onclick="this.style.display='none'">
+		<span class="close w3-hover-color4" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+		<img id="imgModal" src="dummy" alt="modal image" class="modal-content" style="width:80%">
+		<div id="caption" class="w3-text-white w3-small"></div>
+	</div>
+	<script>		
+	
+    <script>
+        $(document).ready(function() {
+            $('#mySidebar').load("html/nav.html");
+            $('#mbar').load("html/mbar.html");
+/*            if (typeof(Storage) !== "undefined") {
+                
+                if (sessionStorage.intro) {
+                    
+                    document.getElementById("introaudio").innerHTML = "<audio controls><source src='audios/intro.mp3' type='audio/mpeg'></audio>";
+                } else {
+                    
+                    sessionStorage.intro = 1;
+                    document.getElementById("introaudio").innerHTML = "<audio controls autoplay><source src='audios/intro.mp3' type='audio/mpeg'></audio>";
+                }
+
+            } else {
+                
+                document.getElementById("introaudio").innerHTML = "<audio controls autoplay><source src='audios/intro.mp3' type='audio/mpeg'></audio>";
+            }*/
+        });
+    </script>
+    <script>
+	    $(document).ready(function() {
+            $('#mySidebar').load("html/nav.html");
+            $('#mbar').load("html/mbar.html");
+        });
+    </script>
+</body>
+
+</html>

@@ -10,7 +10,7 @@ var score=0;
 		 
 		
  		$.getJSON('quiz.json', function(data) {
-		
+
 		for(i=0;i<data.quizlist.length;i++){ 
 			questionBank[i]=new Array;
 			questionBank[i][0]=data.quizlist[i].question;
@@ -18,6 +18,7 @@ var score=0;
 			questionBank[i][2]=data.quizlist[i].option2;
 			questionBank[i][3]=data.quizlist[i].option3;
 			questionBank[i][4]=data.quizlist[i].option4;
+
 		}
 		 numberOfQuestions=questionBank.length; 
 		
@@ -82,7 +83,7 @@ $(stage).append('<div class="questionText">'+questionBank[questionNumber][0]+'</
 	
 	function displayFinalSlide(){
 		
-		$(stage).append('<div class="questionText">Has terminado tu evaluación!<br><br>Total preguntas: '+numberOfQuestions+'<br>Respuestas correctas: '+score+'</div>');
+		$(stage).append('<div class="questionText">Has terminado tu evaluación!<br><br>Total preguntas: '+numberOfQuestions+'<br>Respuestas correctas: '+score+'</div><br><div class="questionText">Si los resultados no fueron los esperados, ve al menú y consulta de nuevo la información.</div><div class="questionText w3-text-color2"><br><br>¡Buena suerte!</div>');
 		
 	}//display final slide
 	
