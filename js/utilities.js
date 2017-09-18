@@ -46,12 +46,20 @@ span.onclick = function() {
 }*/
 
 /*---------------- LightBox ------------*/
-function openModal() {
-  document.getElementById('myModal').style.display = "block";
+function openModal(mm) {
+  if (mm === undefined) {
+	document.getElementById('myModal').style.display = "block";
+  }else{
+	document.getElementById(mm).style.display = "block";
+  }
 }
 
-function closeModal() {
-  document.getElementById('myModal').style.display = "none";
+function closeModal(mm) {
+  if (mm === undefined)  {
+	document.getElementById('myModal').style.display = "none";
+  }else{
+	document.getElementById(mm).style.display = "none";
+  }
 }
 
 var slideIndex = 1;

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es">
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="Aplicación para el aprendizaje sobre cancer oral">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Desórdenes potencialmente malignos y cáncer oral</title>
+    <link rel="stylesheet" href="css/RobotoMono.css">
+    <link rel="stylesheet" href="css/odonto.css">
+    <link rel="stylesheet" href="css/w3.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <script src="js/w3.js" type="text/javascript"></script>
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/sidebar.js" type="text/javascript"></script>
+    <script src="js/utilities.js" type="text/javascript"></script>
+</head>
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Subir al inicio"><i class="fa fa-chevron-up fa-2x"></i></button>
+    <div class="w3-sidebar w3-bar-block w3-card-2 w3-animate-left" style="display:none" id="mySidebar"> </div>
+    <div class="w3-main" id="main">
+        <div class="w3-color1">
+            <div id="mbar" class="w3-container">
+            </div>
+        </div>
+        <div class="w3-container w3-margin-top">
+            <!------------------------------------------------------------------->
+            <div class="w3-card w3-white">
+                <header class="w3-container w3-color1">
+                    <h3>Glosario</h3></header>
+                <div class="w3-panel w3-white">
+                    <dl>
+						<dt><b>Atrofia</b></dt><dd> disminución de espesor, consistencia, y elasticidad de piel y mucosa, se presenta fina y arrugada y es posible ver los vasos.</dd>
+						<dt><b>Ampolla</b></dt><dd> lesión superficial de la piel y mucosas de contenido líquido seroso, hemorrágico o seropurulento. Son uniloculadas y poseen un tamaño mayor a 3 milímetros. Al punzarlas se deprimen totalmente.</dd>
+						<dt><b>Anaplasia</b></dt><dd> Pérdida de la diferenciación estructural y funcional de las células normales.</dd>
+						<dt><b>Costra</b></dt><dd> es la desecación de una secreción patológica o de un líquido, se produce en piel o semimucosa, en las mucosas se forman pseudomembranas debidas a la coagulación del plasma exudado de lesiones erosivas o ulceradas.</dd>
+						<dt><b>Displasia</b></dt><dd> Anormalidad del aspecto de las células debido a alteraciones en el proceso de maduración de las mismas. Por lo general consiste en una expansión de células inmaduras.</dd>
+						<dt><b>Mancha</b></dt><dd> es todo cambio de coloración de la piel o mucosa, sin variación en el espesor, la consistencia y el relieve. Su origen se debe a modificaciones melánicas, hemáticas o de otra naturaleza. </dd>
+						<dt><b>Pápula</b></dt><dd> elevación circunscrita, sólida, en la piel o en la mucosa que involuciona espontáneamente y no deja cicatriz, son de tamaño pequeño, parecido a una cabeza de alfiler. Menos de 1 centímetro de diámetro. Pueden ser epiteliales, dérmicas o dermoepidérmicas.</dd>
+						<dt><b>Pústula</b></dt><dd> lesión superficial que contiene líquido purulento, el cual por lo general es amarillento, constituido por una parte liquida o suero y otra salida formada por leucocitos alterados, microorganismos y estos orgánicos.</dd>
+						<dt><b>Placa</b></dt><dd> lesión elevada, de superficie plana, más ancha que alta, no desprende al raspado</dd>
+						<dt><b>Tumor</b></dt><dd> neoformación no inflamatoria de forma, tamaño y consistencia variable, que tiende a crecer y persistir indefinidamente. Se puede clasificar en hiperplasias simples, hiperplasias malformativas, tumores inflamatorios y blastomas. </dd>
+						<dt><b>Ulceración</b></dt><dd> perdida de sustancia secundaria y persistente de evolución aguda o subaguda que no afecta el corion, con tendencia a la cicatrización.</dd>
+						<dt><b>Úlcera</b></dt><dd> perdida de sustancia profunda y crónica que afecta el corion y que no tiende a cicatrizar.</dd>
+						<dt><b>Vesícula</b></dt><dd> elevación circunscrita que tiene líquido transparentoso, seroso, grisáceo, en sus formas puras y cuando se tornan purulentas por infección reciben el nombre de vesiculopustulosas. Poseen estructura lobulada, tabicada o multilobular. Son menor de 3 milímetros.</dd>
+					</dl>
+				</div>
+            </div>
+        </div>			     
+			<!------------------------------------------------------------------->
+        </div>
+    </div>
+    <script>
+        $(document).ready(function() {
+            $('#mySidebar').load("html/nav.html");
+            $('#mbar').load("html/mbar.html");
+        });
+    </script>
+</body>
+
+</html>
